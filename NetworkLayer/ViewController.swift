@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var networkManger = NetworkManager()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
+    networkManger.getNewMovies(page: 1) { (movies, errorMsg) in
+      print(movies)
+      print(errorMsg)
+    }
   }
 
 
