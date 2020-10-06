@@ -14,6 +14,18 @@
 		8762878F252BAFE9004FD518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8762878E252BAFE9004FD518 /* Assets.xcassets */; };
 		87628792252BAFE9004FD518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87628790252BAFE9004FD518 /* LaunchScreen.storyboard */; };
 		8762879D252BAFEA004FD518 /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762879C252BAFEA004FD518 /* NetworkLayerTests.swift */; };
+		876287AD252BB842004FD518 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287AC252BB842004FD518 /* EndPointType.swift */; };
+		876287AF252BB8A4004FD518 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287AE252BB8A4004FD518 /* HTTPMethod.swift */; };
+		876287B1252BB911004FD518 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287B0252BB911004FD518 /* HTTPTask.swift */; };
+		876287B3252BBA1A004FD518 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287B2252BBA1A004FD518 /* ParameterEncoding.swift */; };
+		876287B5252BBCDF004FD518 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287B4252BBCDF004FD518 /* URLParameterEncoder.swift */; };
+		876287B7252D026C004FD518 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287B6252D026C004FD518 /* JSONParameterEncoder.swift */; };
+		876287B9252D039B004FD518 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287B8252D039B004FD518 /* NetworkRouter.swift */; };
+		876287BB252D0419004FD518 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287BA252D0419004FD518 /* Router.swift */; };
+		876287BD252D05E4004FD518 /* NetworkLogger .swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287BC252D05E4004FD518 /* NetworkLogger .swift */; };
+		876287BF252D062B004FD518 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287BE252D062B004FD518 /* NetworkManger.swift */; };
+		876287C1252D0796004FD518 /* MovieEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287C0252D0796004FD518 /* MovieEndPoint.swift */; };
+		876287C4252D094B004FD518 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876287C3252D094B004FD518 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,18 @@
 		87628798252BAFEA004FD518 /* NetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8762879C252BAFEA004FD518 /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
 		8762879E252BAFEA004FD518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876287AC252BB842004FD518 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		876287AE252BB8A4004FD518 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		876287B0252BB911004FD518 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		876287B2252BBA1A004FD518 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		876287B4252BBCDF004FD518 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		876287B6252D026C004FD518 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		876287B8252D039B004FD518 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		876287BA252D0419004FD518 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		876287BC252D05E4004FD518 /* NetworkLogger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkLogger .swift"; sourceTree = "<group>"; };
+		876287BE252D062B004FD518 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		876287C0252D0796004FD518 /* MovieEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndPoint.swift; sourceTree = "<group>"; };
+		876287C3252D094B004FD518 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,8 @@
 		87628784252BAFE2004FD518 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				876287C2252D091F004FD518 /* Model */,
+				876287A7252BB196004FD518 /* Networking */,
 				87628785252BAFE2004FD518 /* AppDelegate.swift */,
 				87628787252BAFE2004FD518 /* SceneDelegate.swift */,
 				87628789252BAFE2004FD518 /* ViewController.swift */,
@@ -97,6 +123,64 @@
 				8762879E252BAFEA004FD518 /* Info.plist */,
 			);
 			path = NetworkLayerTests;
+			sourceTree = "<group>";
+		};
+		876287A7252BB196004FD518 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				876287AB252BB1BD004FD518 /* Encoding */,
+				876287AA252BB1B6004FD518 /* Service */,
+				876287A9252BB1AD004FD518 /* Manger */,
+				876287A8252BB1A2004FD518 /* EndPoint */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		876287A8252BB1A2004FD518 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				876287C0252D0796004FD518 /* MovieEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		876287A9252BB1AD004FD518 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				876287BE252D062B004FD518 /* NetworkManger.swift */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		876287AA252BB1B6004FD518 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				876287AC252BB842004FD518 /* EndPointType.swift */,
+				876287AE252BB8A4004FD518 /* HTTPMethod.swift */,
+				876287B0252BB911004FD518 /* HTTPTask.swift */,
+				876287B8252D039B004FD518 /* NetworkRouter.swift */,
+				876287BA252D0419004FD518 /* Router.swift */,
+				876287BC252D05E4004FD518 /* NetworkLogger .swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		876287AB252BB1BD004FD518 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				876287B2252BBA1A004FD518 /* ParameterEncoding.swift */,
+				876287B4252BBCDF004FD518 /* URLParameterEncoder.swift */,
+				876287B6252D026C004FD518 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		876287C2252D091F004FD518 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				876287C3252D094B004FD518 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +284,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876287BB252D0419004FD518 /* Router.swift in Sources */,
+				876287B5252BBCDF004FD518 /* URLParameterEncoder.swift in Sources */,
+				876287B3252BBA1A004FD518 /* ParameterEncoding.swift in Sources */,
+				876287B1252BB911004FD518 /* HTTPTask.swift in Sources */,
+				876287AD252BB842004FD518 /* EndPointType.swift in Sources */,
 				8762878A252BAFE2004FD518 /* ViewController.swift in Sources */,
+				876287BF252D062B004FD518 /* NetworkManger.swift in Sources */,
+				876287B7252D026C004FD518 /* JSONParameterEncoder.swift in Sources */,
 				87628786252BAFE2004FD518 /* AppDelegate.swift in Sources */,
+				876287B9252D039B004FD518 /* NetworkRouter.swift in Sources */,
+				876287BD252D05E4004FD518 /* NetworkLogger .swift in Sources */,
+				876287C1252D0796004FD518 /* MovieEndPoint.swift in Sources */,
+				876287AF252BB8A4004FD518 /* HTTPMethod.swift in Sources */,
 				87628788252BAFE2004FD518 /* SceneDelegate.swift in Sources */,
+				876287C4252D094B004FD518 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
